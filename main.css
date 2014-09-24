@@ -1,0 +1,29 @@
+#googleheader {
+	list-style-type: none;
+}
+
+.buttons {
+	padding-top: 10px;
+	text-align: center;
+	margin-top: 11px;
+	font-family: arial,sans-serif;
+}
+
+.search {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+
+.luck {
+	text-decoration: none;
+	color:black;
+	border: .5px black solid;
+	padding: 5px;
+}
+#goglelogo {
+	text-align: center;
+	margin-top: 135px;
+}
+.rightheader ul {list-style: none;}
+.rightheader ul li {display: inline;}
