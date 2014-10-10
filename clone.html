@@ -4,7 +4,7 @@
 	<head>
 		<title>Google Clone Project</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="main.css" type="text/css">
 	</head>
 	<body>
 		<header>
@@ -15,32 +15,30 @@
  			<a id="sign-in" href="https://accounts.google.com/servicelogin">Sign in</a>	
 		</header>
 	<section>
-		<img src="images/logo11w.png" alt="" id="logo">
-			
-		<input type="text" id="search" size="70">
+		<img src="images/logo11w.png" alt="" id="glogo">
 		
-		<form method="Google Search" action="http://www.google.com">
-   				<input type="submit" value="Search">
-			</form>
-			
-		<form method="Lucky" action="http://www.google.com">
-   				<input type="submit" value="I'm Feeling Lucky">
-			</form>
-	
-			 
-		<footer>
+		<div id="search">
+			<input type="text" id="search" size="110">
+		
+		<form action="https://www.google.com/?gws_rd=ssl" method="post">
+			<button>Google Search</button>
+		<form action="https://www.google.com/?gws_rd=ssl" method="post">
+			<button>I'm Feeling Lucky</button>
+		</div>
+		</section>
+	<footer>
 	<!--Bottom Left header-->
-
-			<div id="leftfooter">
-				<a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
-				<a href="https://www.google.com/services/?fg=1&utm_expid=84765423-8.7L_zBEl7TBKKnK0klCweGw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F">Business</a>
-				<a href="https://www.google.com/intl/en/about">About</a>
-		
+		<div id="leftfooter">
+			<a href="https://www.google.com/intl/en/ads/?fg=1">Advertising</a>
+			<a href="https://www.google.com/services/?fg=1&utm_expid=84765423-8.7L_zBEl7TBKKnK0klCweGw.0&utm_referrer=https%3A%2F%2Fwww.google.com%2F">Business</a>
+			<a href="https://www.google.com/intl/en/about">About</a>
+		</div>
 	<!--Bottom Right header-->
-		
-			<div id="rightfoooter">
-				<a href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a>
-			</div>
-	</footer>
+		<div id="rightfooter">
+			<a href="https://www.google.com/intl/en/policies/?fg=1">Privacy & Terms</a>
+			<a href="https://www.google.com/?gws_rd=ssl">Settings</a>
+		</div>
+		</footer>
 	</body>
 </html>
+
